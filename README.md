@@ -19,6 +19,7 @@ repositories {
 ```
 Compile in the build.gradle file. for X.X.X please refer to the change log.
 ```gradle
+
 dependencies{
     compile 'com.github.odemolliens:eobot-android-sdk:x.x.x'
 }
@@ -29,6 +30,7 @@ Maven Setup
 
   Add Repository
 ```xml
+
 <repository>
 	    <id>jitpack.io</id>
 	    <url>https://jitpack.io</url>
@@ -37,6 +39,7 @@ Maven Setup
 ```
   Add Dependency:
 ```xml
+
 	<dependency>
 	    <groupId>com.github.odemolliens</groupId>
 	    <artifactId>eobot-android-sdk</artifactId>
@@ -50,40 +53,32 @@ ChangeLog
 
 ** 1.0.8 **
 
-- Added X11 mining
-
+Added X11 mining
 ** 1.0.7 **
 
-- Some bugs fix
-
+Some bugs fix
 ** 1.0.6 **
 
-- Error management + some bugs fix
-
+Error management + some bugs fix
 ** 1.0.5 **
 
-- Fix mininum deposit coins price
-
+Fix mininum deposit coins price
 ** 1.0.4 **
 
-- Added getSupportedFiatCoins service
-
+Added getSupportedFiatCoins service
 ** 1.0.3 **
 
-- Fixed a bug on getCoinPrice service
-
+Fixed a bug on getCoinPrice service
 ** 1.0.2 **
 
-- Implement manual & automatic withdraw
-
+Implement manual & automatic withdraw
 ** 1.0.1 **
 
-- Implement cache request system
-
+Implement cache request system
 ** 1.0.0 **
 
-- All services from Eobot API are implemented
-- All basics unit test are implemented
+All services from Eobot API are implemented
+All basics unit test are implemented
 
 Donation
 ==========
